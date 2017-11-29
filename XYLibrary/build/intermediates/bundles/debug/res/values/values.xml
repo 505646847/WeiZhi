@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="styleLoadingLayout"/>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="bg">#4fb0f8</color>
+    <color name="black">#000000</color>
+    <color name="bule">#eef5fb</color>
+    <color name="dialog_line">#cdcecf</color>
+    <color name="dialog_message">#5b5a5a</color>
+    <color name="freshmanRgisterBg">#f9f4f1</color>
+    <color name="linecolor">#e2e2e2</color>
+    <color name="linetraffic">#40a4f2</color>
+    <color name="list_devider_color">#fff2f2f2</color>
+    <color name="top_bar_normal_bg">#303F9F</color>
+    <color name="traffictitlecolor">#999999</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="borderWidth"/><attr format="dimension" name="radius"/><attr format="color" name="borderColor"/><attr format="boolean" name="is_circle"/></declare-styleable>
+    <declare-styleable name="LoadingLayout"><attr format="reference" name="llEmptyResId"/><attr format="reference" name="llLoadingResId"/><attr format="reference" name="llErrorResId"/><attr format="reference" name="llEmptyImage"/><attr format="string" name="llEmptyText"/><attr format="reference" name="llErrorImage"/><attr format="string" name="llErrorText"/><attr format="string" name="llRetryText"/><attr format="color" name="llTextColor"/><attr format="dimension" name="llTextSize"/><attr format="color" name="llButtonTextColor"/><attr format="dimension" name="llButtonTextSize"/><attr format="reference" name="llButtonBackground"/></declare-styleable>
+    <declare-styleable name="MyCircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable>
+    <declare-styleable name="PocketTitleBar"><attr format="string" name="titleBarTitle"/><attr format="string" name="titleBarRightText"/><attr format="string" name="titleBarLeftText"/><attr format="reference" name="titleBarLeftImage"/><attr format="reference" name="titleBarRightImage"/><attr format="reference|color" name="titleBarBackground"/></declare-styleable>
+    <declare-styleable name="SimpleCheckView"><attr format="string" name="titleText"/><attr format="boolean" name="checked"/></declare-styleable>
+    <declare-styleable name="SwitchButton"><attr format="reference" name="closeImage"/><attr format="reference" name="openImage"/></declare-styleable>
+    <dimen name="OneDPPadding">1dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="height_top_bar">46dp</dimen>
+    <item name="empty_image" type="id"/>
+    <item name="empty_text" type="id"/>
+    <item name="error_image" type="id"/>
+    <item name="error_text" type="id"/>
+    <item name="retry_button" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">XiaoYanLibrary</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="LoadingLayout">
+    </style>
+    <style name="LoadingLayout.Style">
+        <item name="llEmptyResId">@layout/_loading_layout_empty</item>
+        <item name="llLoadingResId">@layout/_loading_layout_loading</item>
+        <item name="llErrorResId">@layout/_loading_layout_error</item>
+
+        <item name="llTextColor">#999999</item>
+        <item name="llTextSize">16sp</item>
+
+        <item name="llButtonTextColor">#999999</item>
+        <item name="llButtonTextSize">16sp</item>
+        <item name="llButtonBackground">@drawable/_loading_layout_button</item>
+
+        <item name="llEmptyImage">@null</item>
+        <item name="llEmptyText">暂无数据</item>
+        <item name="llErrorImage">@null</item>
+        <item name="llErrorText">无网络连接，请检查您的网络...</item>
+        <item name="llRetryText">加载失败，点击重试~~</item>
+    </style>
+    <style name="MyDialogStyleBottom" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+      
+    </style>
+    <style name="MyNoTitle" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+</resources>

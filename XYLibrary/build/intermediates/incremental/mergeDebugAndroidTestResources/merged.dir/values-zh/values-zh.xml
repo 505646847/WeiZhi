@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="check_info_exit">取消</string>
+    <string name="check_info_message">未获得应用运行所需的基本权限，请在设置中开启权限后再使用</string>
+    <string name="check_info_setting">去设置</string>
+    <string name="check_info_title">权限提示</string>
+    <string name="crop__cancel" ns1:ignore="ButtonCase">取消</string>
+    <string name="crop__done">完成</string>
+    <string name="crop__pick_error">无效的图片</string>
+    <string name="crop__saving">正在保存照片…</string>
+    <string name="crop__wait">请等待…</string>
+</resources>

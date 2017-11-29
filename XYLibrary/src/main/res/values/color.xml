@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 全局颜色值 -->
+    <color name="white">#ffffff</color>
+    <color name="bule">#eef5fb</color>
+    <color name="black">#000000</color>
+    <color name="bg">#4fb0f8</color>
+    <color name="dialog_line">#cdcecf</color>
+    <color name="dialog_message">#5b5a5a</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="freshmanRgisterBg">#f9f4f1</color>
+    <color name="linecolor">#e2e2e2</color>
+    <!-- 交通出行标题下面线的颜色 -->
+    <color name="linetraffic">#40a4f2</color>
+    <!-- 当前标题的颜色 -->
+    <color name="traffictitlecolor">#999999</color>
+
+    <color name="list_devider_color">#fff2f2f2</color>
+    <!-- 标题颜色 -->
+    <color name="top_bar_normal_bg">#303F9F</color>
+    <!-- ActionSheetDialog -->
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

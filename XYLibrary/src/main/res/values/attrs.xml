@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyCircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="borderWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="borderColor" format="color" />
+        <attr name="is_circle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SimpleCheckView">
+        <attr name="titleText" format="string"></attr>
+        <attr name="checked" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PocketTitleBar">
+        <attr name="titleBarTitle" format="string" />
+        <attr name="titleBarRightText" format="string" />
+        <attr name="titleBarLeftText" format="string" />
+        <attr name="titleBarLeftImage" format="reference" />
+        <attr name="titleBarRightImage" format="reference" />
+        <attr name="titleBarBackground" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="closeImage" format="reference" />
+        <attr name="openImage" format="reference" />
+    </declare-styleable>
+</resources>

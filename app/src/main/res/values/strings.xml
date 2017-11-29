@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeiZhi</string>
+
+
+    //login
+    <string name="text_login_account_login">账号登录</string>
+    <string name="text_login_verification_login">验证码登录</string>
+    <string name="edittext_login_phone_hint">请输入手机号码</string>
+    <string name="edittext_login_password_hint">确认密码</string>
+    <string name="text_login_forgetpassword">忘记密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="text_wechatLogin">微信登录</string>
+    <string name="text_sinaLogin">微博登录</string>
+    <string name="text_VerificationCode">获取验证码</string>
+
+    //register
+    <string name="text_inputPassword">请输入6-12密码</string>
+    <string name="text_inputVerificationCode">请输入验证码</string>
+    <string name="btn_existingAccountCode">已有账号，直接登录</string>
+    <string name="text_agreement">注册表示您同意《用户协议》</string>
+
+</resources>
