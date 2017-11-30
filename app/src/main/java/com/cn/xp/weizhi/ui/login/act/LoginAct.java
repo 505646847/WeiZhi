@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.cn.xp.weizhi.MainActivity;
 import com.cn.xp.weizhi.R;
 import com.cn.xp.weizhi.base.MyTitleBarActivity;
 import com.cn.xp.weizhi.bean.UserData;
@@ -125,7 +126,9 @@ public class LoginAct extends MyTitleBarActivity {
                 HttpGetCode();
                 break;
             case R.id.btn_login:
+                //登录
                 login();
+//                startActivity(new Intent(LoginAct.this, MainActivity.class));
                 break;
             case R.id.btn_register:
                 Intent intent = new Intent(LoginAct.this,RegisterAct.class);
