@@ -1,15 +1,47 @@
 [
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\dialog_layout.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\dialog_layout.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_loading.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_loading.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
@@ -32,12 +64,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
@@ -52,6 +100,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
@@ -60,8 +112,24 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_empty.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_empty.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\pocket_simple_check.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\pocket_simple_check.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
@@ -82,6 +150,10 @@
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
@@ -136,6 +208,14 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_action.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_action.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
@@ -156,28 +236,32 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_title_loading.xml",
@@ -186,6 +270,14 @@
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\include_actionbar.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\include_actionbar.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
@@ -200,8 +292,16 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_loading.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_loading.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -212,12 +312,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_loading.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_loading.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_title_loading.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_title_loading.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_error.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_error.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\d_loading.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\d_loading.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
@@ -228,12 +352,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_title_bar.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_title_bar.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
@@ -248,8 +388,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\widget_title_bar.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\widget_title_bar.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\include_actionbar.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\include_actionbar.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\crop__layout_done_cancel.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
@@ -288,6 +448,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\layout\\crop__activity_crop.xml"
     },
@@ -296,8 +460,20 @@
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_title_bar.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_main.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
@@ -306,6 +482,10 @@
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\layout\\crop__activity_crop.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
@@ -326,6 +506,14 @@
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\toast_view_actionsheet.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\toast_view_actionsheet.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
@@ -352,6 +540,14 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_error.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_error.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -368,6 +564,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\listview_loadbar.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\listview_loadbar.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_custom_big.xml"
     },
@@ -382,6 +582,10 @@
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
@@ -424,8 +628,28 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\activity_loading.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\activity_loading.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\widget_title_bar.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\widget_title_bar.xml"
+    },
+    {
+        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\_loading_layout_empty.xml",
+        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\layout\\_loading_layout_empty.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\layout\\listview_loadbar.xml",

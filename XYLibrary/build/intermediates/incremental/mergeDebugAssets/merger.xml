@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\Android\WordSpaces\Android WordSpaces\Frame\WeiZhi\XYLibrary\src\main\assets"/><source path="D:\Android\WordSpaces\Android WordSpaces\Frame\WeiZhi\XYLibrary\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Android\WordSpaces\Android WordSpaces\Frame\WeiZhi\XYLibrary\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="H:\textxiaopao\WeiZhi\XYLibrary\src\main\assets"/><source path="H:\textxiaopao\WeiZhi\XYLibrary\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="H:\textxiaopao\WeiZhi\XYLibrary\src\debug\assets"/></dataSet></merger>
