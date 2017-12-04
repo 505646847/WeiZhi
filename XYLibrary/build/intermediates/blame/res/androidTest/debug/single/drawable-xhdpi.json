@@ -1,9 +1,5 @@
 [
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__tile.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__tile.png"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__divider.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__divider.9.png"
     },
@@ -20,31 +16,51 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__divider.9.png"
     },
     {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_cancel.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__ic_cancel.png"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__tile.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__tile.png"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__tile.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__tile.png"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__divider.9.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__divider.9.png"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_cancel.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__ic_cancel.png"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__divider.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__divider.9.png"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_cancel.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__ic_cancel.png"
     },
     {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__ic_done.png"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_done.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__ic_done.png"
+    },
+    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_done.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__ic_done.png"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_cancel.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__ic_cancel.png"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__divider.9.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__divider.9.png"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_cancel.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__ic_cancel.png"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__ic_done.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\c2f5a3fa7fe2806a22e87b08ccd74f5ff5ce98c8\\output\\res\\drawable-xhdpi\\crop__ic_done.png"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi\\crop__tile.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\0b1caf9569794802c1b1836241441f4039db03a8\\output\\res\\drawable-xhdpi\\crop__tile.png"
     }
 ]

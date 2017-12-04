@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="H:\textxiaopao\WeiZhi\XYLibrary\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="H:\textxiaopao\WeiZhi\XYLibrary\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Android\WordSpaces\Android WordSpaces\Frame\WeiZhi\WeiZhi\XYLibrary\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="D:\Android\WordSpaces\Android WordSpaces\Frame\WeiZhi\WeiZhi\XYLibrary\src\release\jniLibs"/></dataSet></merger>

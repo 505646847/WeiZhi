@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 57,
+                        "endOffset": 365
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
@@ -48,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +83,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "H:\\xiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

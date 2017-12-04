@@ -35,6 +35,7 @@
     <color name="bule">#eef5fb</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorblue">#6DB0FF</color>
     <color name="crop__button_bar">#f3f3f3</color>
     <color name="crop__button_text">#666666</color>
     <color name="crop__selector_focused">#77000000</color>

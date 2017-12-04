@@ -1,39 +1,111 @@
 [
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_out.xml",
+        "source": "H:\\xiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_out.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_out.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
+        "source": "H:\\xiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
-        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
@@ -48,10 +120,6 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_top.xml"
     },
@@ -60,52 +128,36 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_out.xml",
-        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
-    },
-    {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_out.xml",
-        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
@@ -116,31 +168,27 @@
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
-        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\actionsheet_dialog_in.xml",
-        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\9f77454a4d83f7b2cafb77e932025170cbdbb7d5\\output\\res\\anim\\abc_popup_enter.xml"
     }
 ]

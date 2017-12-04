@@ -1,7 +1,10 @@
 package com.cn.xp.weizhi.ui.login.act;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -70,6 +73,7 @@ public class RegisterAct extends MyTitleBarActivity {
         super.onCreate(savedInstanceState);
 //        ButterKnife.bind(this);
         tool = HttpTool.getInstance(this);
+        initStatus();
     }
 
     @Override
@@ -85,6 +89,16 @@ public class RegisterAct extends MyTitleBarActivity {
     @Override
     protected void init() {
      util = new GetCodeUtil();
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    private void initStatus() {
+        //取消设置透明状态栏,使 ContentView 内容不再覆盖状态栏
+        getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        //需要设置这个 flag 才能调用 setStatusBarColor 来设置状态栏颜色
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        //设置状态栏颜色
+        getWindow().setStatusBarColor(getResources().getColor(R.color.colorblue));
     }
 
     @OnClick({R.id.tv_getVerificationCode,R.id.btn_register,R.id.btn_existingAccount})
@@ -124,74 +138,25 @@ public class RegisterAct extends MyTitleBarActivity {
         map.put("code",strEt[3]);
         map.put("password",strEt[1]);
         //联网操作
-        tool.HttpLoad(getCode, CloudApi.register_url, map, resultListener);
+        tool.HttpLoad(register, CloudApi.register_url, map, resultListener);
     }
 
     /**
      * 获取验证码
      */
     private void HttpGetCode() {
-//        String[] strEdit = EditUtil.getEditsString(RegisterAct.this, etPhone);
-//        if (strEdit == null){
-//            return;
-//        }
-//
-//        Map<String, String> map = new HashMap<>();
-//        map.put("mobile",strEdit[0]);
-        //联网操作
-//        tool.HttpLoad(getCode, CloudApi.register_url, map, resultListener);
-        //联网操作
-        new GetThread().start();
-    }
-
-    /**
-     *HttpURLConnection get方式联网操作
-     */
-    class GetThread extends Thread{
-        public void run(){
-            HttpURLConnection conn=null;
-            String urlStr=CloudApi.register_getcode_url+"?mobile="+etPhone.getText().toString()+"&type="+getCode;
-            InputStream is = null;
-            String resultData = "";
-            try{
-                URL url = new URL(urlStr);
-                conn = (HttpURLConnection)url.openConnection();
-                conn.setRequestMethod("GET"); //使用get请求
-
-                if(conn.getResponseCode() == 200){
-                    is = conn.getInputStream();
-                    InputStreamReader isr = new InputStreamReader(is);
-                    BufferedReader bufferReader = new BufferedReader(isr);
-                    String inputLine  = "";
-                    while((inputLine = bufferReader.readLine()) != null){
-                        resultData += inputLine + "\n";
-                    }
-                    showToast("get方法取回内容：" + resultData);
-                    //解析resultData，并调用更新视图
-                    analysisData(resultData);
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
+        String[] strEdit = EditUtil.getEditsString(RegisterAct.this, etPhone);
+        if (strEdit == null){
+            return;
         }
-    }
 
-    /**
-     * 解析resultData，并调用更新视图
-     * @param resultData
-     * @throws JSONException
-     */
-    private void analysisData(String resultData) throws JSONException {
-        JSONObject jSONObject = new JSONObject(resultData);
-        String code = jSONObject.getString("code");
-        if (code.equals("1")){
-            showToast("获取验证码成功");
-            clickCode = true;
-            getCode();
-        }else {
-            //获取验证码失败
-            showToast(jSONObject.getString("desc"));
-        }
+        Map<String, String> map = new HashMap<>();
+        map.put("mobile",strEdit[0]);
+//        map.put("type",1);
+//        联网操作
+        tool.HttpLoad(getCode, CloudApi.register_getcode_url, map, resultListener);
+//        联网操作
+//        new GetThread().start();
     }
 
     ResultListener resultListener = new ResultListener(){
@@ -216,7 +181,8 @@ public class RegisterAct extends MyTitleBarActivity {
             switch (id){
                 case getCode:
                     if (code == 1){
-                        showToast("成功获取验证码");
+                        showToast("获取验证码成功");
+//                        showToast(obj.optString("desc"));
                         clickCode = true;
                         getCode();
                     } else {
@@ -226,14 +192,14 @@ public class RegisterAct extends MyTitleBarActivity {
                     break;
                 case register:
                     if (code == 1){
-                        showToast("desc："+obj.optString("desc"));
+                        showToast(obj.optString("desc"));
                         //保存账号
                         SharedAccount.getInstance(RegisterAct.this).save(etPhone.getText().toString(),"");
-                        //解析并保存obj中data数据
-
                         //移除
-//                        ActivitiesManager.getInstance().popAllActivity();
-                        //EventBus用更新主页面账号
+                        ActivitiesManager.getInstance().popActivity();
+                    }else if (code == 0){
+                        //用户已注册
+                        showToast(obj.optString("desc"));
                     }
                     break;
 

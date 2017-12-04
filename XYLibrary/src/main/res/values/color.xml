@@ -13,6 +13,7 @@
     <color name="linecolor">#e2e2e2</color>
     <!-- 交通出行标题下面线的颜色 -->
     <color name="linetraffic">#40a4f2</color>
+    <color name="colorblue">#6DB0FF</color>
     <!-- 当前标题的颜色 -->
     <color name="traffictitlecolor">#999999</color>
 

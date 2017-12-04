@@ -4,11 +4,15 @@
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
     },
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
-        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu\\main.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\bundles\\debug\\res\\menu\\main.xml"
     }
 ]

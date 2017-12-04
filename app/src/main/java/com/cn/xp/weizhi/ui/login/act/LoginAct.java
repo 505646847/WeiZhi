@@ -1,19 +1,24 @@
 package com.cn.xp.weizhi.ui.login.act;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.text.InputType;
 import android.text.SpannableString;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.cn.xp.weizhi.MainActivity;
 import com.cn.xp.weizhi.R;
-import com.cn.xp.weizhi.base.MyTitleBarActivity;
+import com.cn.xp.weizhi.bean.UserBean;
 import com.cn.xp.weizhi.bean.UserData;
 import com.cn.xp.weizhi.url.CloudApi;
 import com.cn.xp.weizhi.utils.SharedAccount;
@@ -22,6 +27,7 @@ import com.xiaoyan.xylibrary.common.http.okhttp.ResultListener;
 import com.xiaoyan.xylibrary.common.listener.OnGetCodeCallBack;
 import com.xiaoyan.xylibrary.common.tools.EditUtil;
 import com.xiaoyan.xylibrary.common.tools.GetCodeUtil;
+import com.xiaoyan.xylibrary.common.tools.LogUtil;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -35,17 +41,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 import okhttp3.Call;
 import okhttp3.Response;
 
-public class LoginAct extends MyTitleBarActivity {
+public class LoginAct extends Activity {
 
     //1账号登录，2验证码登录
     private int loginSign = 1;
 
     private final int loginAccount = 1;
     private final int loginverificationCode = 2;
+    private final int getverificationCode = 3;
 
     private boolean clickCode = false;
 
@@ -77,24 +85,13 @@ public class LoginAct extends MyTitleBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-     tool = HttpTool.getInstance(this);
+        setContentView(R.layout.activity_login);
+        ButterKnife.bind(this);
+        tool = HttpTool.getInstance(this);
+        util = new GetCodeUtil();
+        initView();
     }
 
-    @Override
-    protected int layoutResID() {
-        return R.layout.activity_login;
-    }
-
-    @Override
-    protected void initTitle() {
-      setTitle("登录");
-    }
-
-    @Override
-    protected void init() {
-     util = new GetCodeUtil();
-     initView();
-    }
 
 
     private void initView() {
@@ -109,6 +106,8 @@ public class LoginAct extends MyTitleBarActivity {
         etPhone.setHintTextColor(ContextCompat.getColor(LoginAct.this,R.color.white));
         etPassword.setHintTextColor(ContextCompat.getColor(LoginAct.this,R.color.white));
     }
+
+
 
     @OnClick({R.id.tv_account,R.id.tv_verification,R.id.btn_login,R.id.btn_register,R.id.tv_verificationCode})
     public void onViewClicked(View view){
@@ -127,8 +126,8 @@ public class LoginAct extends MyTitleBarActivity {
                 break;
             case R.id.btn_login:
                 //登录
-                login();
-//                startActivity(new Intent(LoginAct.this, MainActivity.class));
+//                login();
+                startActivity(new Intent(LoginAct.this, MainActivity.class));
                 break;
             case R.id.btn_register:
                 Intent intent = new Intent(LoginAct.this,RegisterAct.class);
@@ -137,14 +136,20 @@ public class LoginAct extends MyTitleBarActivity {
         }
     }
 
-
+    /**
+     * 获取验证码
+     */
     private void HttpGetCode() {
         String phone = etPhone.getText().toString();
         if (phone.length()<11){
-            showToast("手机号码不正确");
+//            showToast("手机号码不正确");
+            Toast.makeText(LoginAct.this,"手机号码不正确",Toast.LENGTH_SHORT);
             return;
         }
-        new GetThread().start();
+        Map<String, String> map = new HashMap<>();
+        map.put("mobile",phone);
+        map.put("type","2");
+        tool.HttpLoad(getverificationCode, CloudApi.register_getcode_url, map, resultListener);
     }
 
 
@@ -170,15 +175,16 @@ public class LoginAct extends MyTitleBarActivity {
         @Override
         public void state(int id, boolean isStartOrEnd) {
             if (isStartOrEnd){
-                showLoading();
+//                showLoading();
             } else {
-                hiddenLoading();
+//                hiddenLoading();
             }
         }
 
         @Override
         public void fail(int id, Call call, Exception e) {
-            showToast("服务器出现异常，请稍后再试");
+//            showToast("服务器出现异常，请稍后再试");
+            Toast.makeText(LoginAct.this,"服务器出现异常，请稍后再试",Toast.LENGTH_SHORT);
         }
 
         @Override
@@ -187,24 +193,47 @@ public class LoginAct extends MyTitleBarActivity {
             switch (id){
                 case loginAccount:
                     if (code == 1){
-                        showToast("登录成功");
-                        showToast(obj.optString("desc"));
+//                        showToast("登录成功");
+                        Toast.makeText(LoginAct.this,"登录成功",Toast.LENGTH_SHORT);
+                        Toast.makeText(LoginAct.this,obj.optString("desc"),Toast.LENGTH_SHORT);
+//                        showToast(obj.optString("desc"));
+                        //保存phone,password到本地
+                        SharedAccount.getInstance(LoginAct.this).save(etPhone.getText().toString(),etPassword.getText().toString());
                         //保存到本地
+                        savelogin(obj);
+                        startActivity(new Intent(LoginAct.this, MainActivity.class));
                     } else {
                         //登录失败
-                        showToast(obj.optString("desc"));
+//                        showToast(obj.optString("desc"));
+                        Toast.makeText(LoginAct.this,obj.optString("desc"),Toast.LENGTH_SHORT);
+
                     }
                     break;
                 case loginverificationCode:
                     if (code == 1){
-                        showToast("验证码登录成功");
-                        showToast(obj.optString("desc"));
-                        //保存phone,password到本地
-                        SharedAccount.getInstance(LoginAct.this).save(etPhone.getText().toString(),etPassword.getText().toString());
-                        //解析obj中的data数据，并保存
+//                        showToast("验证码登录成功");
+                        Toast.makeText(LoginAct.this,"验证码登录成功",Toast.LENGTH_SHORT);
+//                        showToast(obj.optString("desc"));
+                        Toast.makeText(LoginAct.this,obj.optString("desc"),Toast.LENGTH_SHORT);
+
                     } else {
                         //登录失败
-                        showToast(obj.optString("desc"));
+//                        showToast(obj.optString("desc"));
+                        Toast.makeText(LoginAct.this,obj.optString("desc"),Toast.LENGTH_SHORT);
+                    }
+                    break;
+                case getverificationCode:
+                    if (code == 1){
+                        //获取验证码成功
+//                        showToast("获取验证码成功");
+                        Toast.makeText(LoginAct.this,"获取验证码成功",Toast.LENGTH_SHORT);
+//                        showToast(obj.optString("desc"));
+                        getCode();
+                    }else {
+//                        showToast("获取验证码失败");
+                        Toast.makeText(LoginAct.this,"获取验证码失败",Toast.LENGTH_SHORT);
+//                        showToast(obj.optString("desc"));
+                        Toast.makeText(LoginAct.this,obj.optString("desc"),Toast.LENGTH_SHORT);
                     }
                     break;
             }
@@ -216,53 +245,47 @@ public class LoginAct extends MyTitleBarActivity {
         }
     };
 
-    /**
-     *HttpURLConnection get方式联网操作
-     */
-    class GetThread extends Thread{
-        public void run(){
-            HttpURLConnection conn=null;
-            String urlStr=CloudApi.register_getcode_url+"?mobile="+etPhone.getText().toString()+"&type="+loginverificationCode;
-            InputStream is = null;
-            String resultData = "";
-            try{
-                URL url = new URL(urlStr);
-                conn = (HttpURLConnection)url.openConnection();
-                conn.setRequestMethod("GET"); //使用get请求
+    //解析Json
+    private void savelogin(JSONObject obj) {
+        int code = obj.optInt("code");
+        UserBean userBean = new UserBean();
+        userBean.setCode(code);
+        String desc = obj.optString("desc");
+        userBean.setDesc(desc);
+        try {
+            JSONObject dataBeanResult = obj.getJSONObject("data");
+            String ryToken = dataBeanResult.getString("ryToken");
+            String mobile = dataBeanResult.getString("mobile");
+            String sessionId = dataBeanResult.getString("sessionId");
+            int type = dataBeanResult.getInt("type");
+            int fz = dataBeanResult.getInt("fz");
+            String createTime = dataBeanResult.getString("createTime");
+            String loginIp = dataBeanResult.getString("loginIp");
+            int id = dataBeanResult.getInt("id");
+            int isRealName = dataBeanResult.getInt("isRealName");
+            String email = dataBeanResult.getString("email");
+            String account = dataBeanResult.getString("account");
+            Boolean isComplete = dataBeanResult.getBoolean("isComplete");
 
-                if(conn.getResponseCode() == 200){
-                    is = conn.getInputStream();
-                    InputStreamReader isr = new InputStreamReader(is);
-                    BufferedReader bufferReader = new BufferedReader(isr);
-                    String inputLine  = "";
-                    while((inputLine = bufferReader.readLine()) != null){
-                        resultData += inputLine + "\n";
-                    }
-                    showToast("get方法取回内容：" + resultData);
-                    //解析resultData，并调用更新视图
-                    analysisData(resultData);
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
+            UserBean.DataBean dataBean = new UserBean.DataBean();
+            dataBean.setRyToken(ryToken);
+            dataBean.setMobile(mobile);
+            dataBean.setSessionId(sessionId);
+            dataBean.setType(type);
+            dataBean.setFz(fz);
+            dataBean.setCreateTime(createTime);
+            dataBean.setLoginIp(loginIp);
+            dataBean.setId(id);
+            dataBean.setIsRealName(isRealName);
+            dataBean.setEmail(email);
+            dataBean.setAccount(account);
+            dataBean.setComplete(isComplete);
+
+            userBean.setData(dataBean);
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-    }
-    /**
-     * 解析resultData，并调用更新视图
-     * @param resultData
-     * @throws JSONException
-     */
-    private void analysisData(String resultData) throws JSONException {
-        JSONObject jSONObject = new JSONObject(resultData);
-        String code = jSONObject.getString("code");
-        if (code.equals("1")){
-            showToast("获取验证码成功");
-            clickCode = true;
-            getCode();
-        }else {
-            //获取验证码失败
-            showToast(jSONObject.getString("desc"));
-        }
+
     }
 
     private void getCode() {
@@ -300,7 +323,7 @@ public class LoginAct extends MyTitleBarActivity {
         loginSign = 1;
         SpannableString s = new SpannableString("请输入密码");
         etPassword.setHint(s);
-        etPassword.setInputType(InputType.TYPE_CLASS_TEXT);
+        etPassword.setInputType(InputType.TYPE_TEXT_VARIATION_PASSWORD);
         //设置tvAccount粗体字
         tvAccount.setTypeface(Typeface.SANS_SERIF, Typeface.BOLD);
         //设置tvVerification常规字体

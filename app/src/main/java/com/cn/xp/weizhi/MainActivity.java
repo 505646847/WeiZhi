@@ -1,5 +1,7 @@
 package com.cn.xp.weizhi;
 
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +10,7 @@ import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -23,35 +26,36 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class MainActivity extends FragmentActivity implements OnClickListener {
 
-    //    @BindView(R.id.vp_viewpager)
-//    ViewPager vpViewpager;
-//    @BindView(R.id.ll_one)
-//    LinearLayout llOne;
-//    @BindView(R.id.ll_two)
-//    LinearLayout llTwo;
-//    @BindView(R.id.ll_three)
-//    LinearLayout llThree;
-//    @BindView(R.id.ll_four)
-//    LinearLayout llFour;
-//    @BindView(R.id.iv_one)
-//    ImageView ivOne;
-//    @BindView(R.id.iv_two)
-//    ImageView ivTwo;
-//    @BindView(R.id.iv_three)
-//    ImageView ivThree;
-//    @BindView(R.id.iv_four)
-//    ImageView ivFour;
-//    @BindView(R.id.tv_one)
-//    TextView tvOne;
-//    @BindView(R.id.tv_two)
-//    TextView tvTwo;
-//    @BindView(R.id.tv_three)
-//    TextView tvThree;
-//    @BindView(R.id.tv_four)
-//    TextView tvFour;
+    @BindView(R.id.vp_viewpager)
+    ViewPager vpViewpager;
+    @BindView(R.id.ll_one)
+    LinearLayout llOne;
+    @BindView(R.id.ll_two)
+    LinearLayout llTwo;
+    @BindView(R.id.ll_three)
+    LinearLayout llThree;
+    @BindView(R.id.ll_four)
+    LinearLayout llFour;
+    @BindView(R.id.iv_one)
+    ImageView ivOne;
+    @BindView(R.id.iv_two)
+    ImageView ivTwo;
+    @BindView(R.id.iv_three)
+    ImageView ivThree;
+    @BindView(R.id.iv_four)
+    ImageView ivFour;
+    @BindView(R.id.tv_one)
+    TextView tvOne;
+    @BindView(R.id.tv_two)
+    TextView tvTwo;
+    @BindView(R.id.tv_three)
+    TextView tvThree;
+    @BindView(R.id.tv_four)
+    TextView tvFour;
 
     private ImageView ivCurrent;
     private  TextView tvCurrent;
@@ -63,10 +67,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     private ThreeFragment threeFragment;
     private FourFragment fourFragment;
 
-    private LinearLayout llOne,llTwo,llThree,llFour;
-    private ImageView ivOne,ivTwo,ivThree,ivFour;
-    private TextView tvOne,tvTwo,tvThree, tvFour;
-    private ViewPager vpViewpager;
 
     private int[] Tab_select = {R.drawable.a36, R.drawable.a39, R.drawable.a41, R.drawable.a43};
     private int[] Tab_normal = {R.drawable.a37, R.drawable.a38, R.drawable.a40, R.drawable.a42};
@@ -77,32 +77,16 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         initView();
-
+        initStatus();
         initData();
     }
     private void initView() {
-        llOne = (LinearLayout) findViewById(R.id.ll_one);
-        llTwo = (LinearLayout) findViewById(R.id.ll_two);
-        llThree = (LinearLayout) findViewById(R.id.ll_three);
-        llFour = (LinearLayout) findViewById(R.id.ll_four);
-
-        ivOne = (ImageView) findViewById(R.id.iv_one);
-        ivTwo = (ImageView) findViewById(R.id.iv_two);
-        ivThree = (ImageView) findViewById(R.id.iv_three);
-        ivFour = (ImageView) findViewById(R.id.iv_four);
-
-        vpViewpager = (ViewPager) findViewById(R.id.vp_viewpager);
-
         llOne.setOnClickListener(this);
         llTwo.setOnClickListener(this);
         llThree.setOnClickListener(this);
         llFour.setOnClickListener(this);
-
-        tvOne = (TextView) findViewById(R.id.tv_one);
-        tvTwo = (TextView) findViewById(R.id.tv_two);
-        tvThree = (TextView) findViewById(R.id.tv_three);
-        tvFour = (TextView) findViewById(R.id.tv_four);
 
         ivThree.setSelected(true);
         tvThree.setSelected(true);
@@ -150,6 +134,16 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
             }
         });
         vpViewpager.setOffscreenPageLimit(2); //设置向左和向右都缓存limit个页面
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    private void initStatus() {
+        //取消设置透明状态栏,使 ContentView 内容不再覆盖状态栏
+        getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        //需要设置这个 flag 才能调用 setStatusBarColor 来设置状态栏颜色
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        //设置状态栏颜色
+        getWindow().setStatusBarColor(getResources().getColor(R.color.colorblue));
     }
 
     private void initData() {

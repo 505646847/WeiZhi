@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
+        "outputFile": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 101
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\950cc166b8ba5fa9b715a4a0d94e4d8a5e4ba9de\\output\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 256
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\950cc166b8ba5fa9b715a4a0d94e4d8a5e4ba9de\\output\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 311
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\950cc166b8ba5fa9b715a4a0d94e4d8a5e4ba9de\\output\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 372
                 },
                 "from": {
-                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\950cc166b8ba5fa9b715a4a0d94e4d8a5e4ba9de\\output\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -231,6 +231,87 @@
                 },
                 "from": {
                     "file": "C:\\Users\\Administrator\\.android\\build-cache\\950cc166b8ba5fa9b715a4a0d94e4d8a5e4ba9de\\output\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 316,
+                        "endColumn": 60,
+                        "endOffset": 372
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 154,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 154,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 54,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 54,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endColumn": 60,
+                    "endOffset": 372
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\2cf059f4b44fd73373336318faa3a48da6add4bb\\output\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,

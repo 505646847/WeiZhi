@@ -1,11 +1,15 @@
 [
     {
-        "merged": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
-        "source": "H:\\textxiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\xml\\rc_file_path.xml"
+        "merged": "H:\\xiaopao\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "H:\\xiaopao\\WeiZhi\\XYLibrary\\src\\main\\res\\xml\\rc_file_path.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
         "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\XYLibrary\\src\\main\\res\\xml\\rc_file_path.xml"
+    },
+    {
+        "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
+        "source": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\WeiZhi\\WeiZhi\\XYLibrary\\src\\main\\res\\xml\\rc_file_path.xml"
     },
     {
         "merged": "D:\\Android\\WordSpaces\\Android WordSpaces\\Frame\\BaseProject\\WeiZhi\\XYLibrary\\build\\intermediates\\res\\merged\\debug\\xml\\rc_file_path.xml",
