@@ -96,10 +96,10 @@ public class LoginAct extends Activity {
 
     private void initView() {
         //初始化默认值
-        SettingView();
+        settingView();
     }
 
-    private void SettingView() {
+    private void settingView() {
         tvForgetPassword.setVisibility(View.VISIBLE);
         //设置tvAccount粗体字
         tvAccount.setTypeface(Typeface.SANS_SERIF, Typeface.BOLD);
@@ -114,15 +114,15 @@ public class LoginAct extends Activity {
         switch (view.getId()){
             case R.id.tv_account:
                 //设置tv_account点击后布局
-                TvAcountSetting();
+                tvAcountSetting();
                 break;
             case R.id.tv_verification:
                 //设置tv_verification点击后布局
-                TvVerificationSetting();
+                tvVerificationSetting();
                 break;
             case R.id.tv_verificationCode:
                 //获取验证码
-                HttpGetCode();
+                httpGetCode();
                 break;
             case R.id.btn_login:
                 //登录
@@ -139,9 +139,9 @@ public class LoginAct extends Activity {
     /**
      * 获取验证码
      */
-    private void HttpGetCode() {
+    private void httpGetCode() {
         String phone = etPhone.getText().toString();
-        if (phone.length()<11){
+        if (phone.length() < 11) {
 //            showToast("手机号码不正确");
             Toast.makeText(LoginAct.this,"手机号码不正确",Toast.LENGTH_SHORT);
             return;
@@ -155,7 +155,7 @@ public class LoginAct extends Activity {
 
     private void login(){
         String[] strEt = EditUtil.getEditsString(this, etPhone, etPassword);
-        if (strEt == null){
+        if (strEt == null) {
             return;
         }
         Map<String, String> map = new HashMap<>();
@@ -164,7 +164,7 @@ public class LoginAct extends Activity {
         //联网操作
         if (loginSign == 1) {  //用户账号登录联网
             tool.HttpLoad(loginAccount, CloudApi.login_account_url, map, resultListener);
-        }else if (loginSign == 2){//验证码登录联网
+        } else if (loginSign == 2) {//验证码登录联网
             tool.HttpLoad(loginverificationCode, CloudApi.login_verificationCode_url, map, resultListener);
         }
     }
@@ -174,7 +174,7 @@ public class LoginAct extends Activity {
 
         @Override
         public void state(int id, boolean isStartOrEnd) {
-            if (isStartOrEnd){
+            if (isStartOrEnd) {
 //                showLoading();
             } else {
 //                hiddenLoading();
@@ -200,7 +200,7 @@ public class LoginAct extends Activity {
                         //保存phone,password到本地
                         SharedAccount.getInstance(LoginAct.this).save(etPhone.getText().toString(),etPassword.getText().toString());
                         //保存到本地
-                        savelogin(obj);
+                        saveLogin(obj);
                         startActivity(new Intent(LoginAct.this, MainActivity.class));
                     } else {
                         //登录失败
@@ -246,7 +246,7 @@ public class LoginAct extends Activity {
     };
 
     //解析Json
-    private void savelogin(JSONObject obj) {
+    private void saveLogin(JSONObject obj) {
         int code = obj.optInt("code");
         UserBean userBean = new UserBean();
         userBean.setCode(code);
@@ -306,7 +306,7 @@ public class LoginAct extends Activity {
 
 
 
-    private void TvVerificationSetting() {
+    private void tvVerificationSetting() {
         loginSign = 2;
         SpannableString s = new SpannableString("请输入验证码");
         etPassword.setHint(s);
@@ -319,7 +319,7 @@ public class LoginAct extends Activity {
         tvVerificationCode.setVisibility(View.VISIBLE);
     }
 
-    private void TvAcountSetting() {
+    private void tvAcountSetting() {
         loginSign = 1;
         SpannableString s = new SpannableString("请输入密码");
         etPassword.setHint(s);

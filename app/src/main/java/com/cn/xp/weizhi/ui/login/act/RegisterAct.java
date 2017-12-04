@@ -106,11 +106,11 @@ public class RegisterAct extends MyTitleBarActivity {
         switch (view.getId()){
             case R.id.tv_getVerificationCode:
                 //获取验证码
-                HttpGetCode();
+                httpGetCode();
                 break;
             case R.id.btn_register:
                 //注册操作
-                Register();
+                register();
                 break;
             case R.id.btn_existingAccount:
                 finish();
@@ -118,18 +118,18 @@ public class RegisterAct extends MyTitleBarActivity {
         }
     }
 
-    private void Register() {
+    private void register() {
         String[] strEt = EditUtil.getEditsString(RegisterAct.this, etPhone, etPassword, etConfirmPassword,etVerificationCode);
-        if (strEt==null){
+        if (strEt==null) {
             return;
         }
         String password1 = etPassword.getText().toString();
         String password2 = etConfirmPassword.getText().toString();
-        if ( password1.length()<6 || password2.length()<6){
+        if ( password1.length() < 6 || password2.length() < 6) {
             showToast("密码少于8位数，请重新输入");
             return;
         }
-        if(!password1.equals(password2)){
+        if (!password1.equals(password2)) {
             showToast("您两次输入的密码不同，请重新输入");
             return;
         }
@@ -144,9 +144,9 @@ public class RegisterAct extends MyTitleBarActivity {
     /**
      * 获取验证码
      */
-    private void HttpGetCode() {
+    private void httpGetCode() {
         String[] strEdit = EditUtil.getEditsString(RegisterAct.this, etPhone);
-        if (strEdit == null){
+        if (strEdit == null) {
             return;
         }
 
@@ -180,7 +180,7 @@ public class RegisterAct extends MyTitleBarActivity {
             int code = obj.optInt("code");
             switch (id){
                 case getCode:
-                    if (code == 1){
+                    if (code == 1) {
                         showToast("获取验证码成功");
 //                        showToast(obj.optString("desc"));
                         clickCode = true;
@@ -191,13 +191,13 @@ public class RegisterAct extends MyTitleBarActivity {
                     }
                     break;
                 case register:
-                    if (code == 1){
+                    if (code == 1) {
                         showToast(obj.optString("desc"));
                         //保存账号
                         SharedAccount.getInstance(RegisterAct.this).save(etPhone.getText().toString(),"");
                         //移除
                         ActivitiesManager.getInstance().popActivity();
-                    }else if (code == 0){
+                    }else if (code == 0) {
                         //用户已注册
                         showToast(obj.optString("desc"));
                     }
